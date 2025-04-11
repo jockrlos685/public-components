@@ -1,5 +1,5 @@
-# Flow and other utility components
-String Normalizer is an utility class initially developed to replace accented characters on names (diacritical) into their ASCII equivalents. 
+# String Normaliser
+String Normaliser is an utility class initially developed to replace accented characters on names (diacritical) into their ASCII equivalents. 
 eg. Mélanie > Melanie, François > Francois, José > Jose, Iñaki > Inaki​, João > Joao, etc.
 (all strings are returned in lower case to increase processing time by reducing the number of characters to iterate).
 
