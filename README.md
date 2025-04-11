@@ -1,7 +1,7 @@
 # Flow and other utility components
 String Normalizer is an utility class initially developed to replace accented characters on names (diacritical) into their ASCII equivalents. 
 eg. Mélanie > Melanie, François > Francois, José > Jose, Iñaki > Inaki​, João > Joao, etc.
-(all string are returned in lower case to increase processing time by reducing the number of characters to iterate).
+(all strings are returned in lower case to increase processing time by reducing the number of characters to iterate).
 
 Additional methods have been added to extend its functionality such as:
 - Removing special characters keeping alphanumeric only, eg. O'brian > Obrian
@@ -21,4 +21,4 @@ Current diacritics values can be expanded declarative by moving the Map to a Cus
 Sandbox Installation: https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ7000000D8xn
 Production Installation: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ7000000D8xn
 
-Written by: Jose De Oliveira.
+Written by: Jose De Oliveira
